@@ -1,5 +1,4 @@
 import React from 'react'
-import ExperienceCard from '../Cards/ExperienceCard'
 
 const Experience = () => {
     return (
