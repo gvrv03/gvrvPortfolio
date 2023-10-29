@@ -1,6 +1,5 @@
 "use client"
 import About from "@/components/Home/About"
-import Experience from "@/components/Home/Experience"
 import LandingPage from "@/components/Home/LandingPage"
 import Projects from "@/components/Home/Projects"
 import Navbar from "@/components/Utility/Navbar"
