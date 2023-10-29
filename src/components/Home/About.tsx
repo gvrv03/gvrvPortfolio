@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <section id="about " className=' px-5  md:py-20  py-10 bg-gray-100 w-full' >
+        <section id="about" className=' px-5  md:py-20  py-10 bg-gray-100 w-full' >
             <div className="container m-auto flex  md:flex-row flex-col gap-10 bg-grey-50 " >
 
 

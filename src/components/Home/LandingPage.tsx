@@ -2,7 +2,7 @@ import React from 'react'
 
 const LandingPage = () => {
   return (
-    <section className="text-gray-600 body-font  ">
+    <section  id='home' className="text-gray-600 body-font  ">
       
       <div className="container mx-auto  items-center flex px-5 gap-10  py-10 md:flex-row flex-col">
         <div className="lg:max-w-sm shadow-xl rounded-full lg:w-full md:w-[30%] overflow-hidden w-[70%]">
