@@ -9,7 +9,7 @@ const About = () => {
                 <div className='flex-col flex gap-2 md:w-[70%]' >
                     <h2 className='text-2xl md:text-4xl font-bold pColor ' >WHO AM I?</h2>
                     <div className='text-xl md:text-3xl font-semibold text-justify ' >
-                        I'm Gaurav Narnaware, a Web Developer
+                        Im Gaurav Narnaware, a Web Developer
                     </div>
                     <div className='text-justify mt-2 md:mt-5 text-gray-500 ' >
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repr
