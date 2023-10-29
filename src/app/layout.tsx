@@ -1,6 +1,5 @@
 import Footer from '@/components/Utility/Footer'
 import PreLoader from '@/components/Utility/PreLoader'
-import type { Metadata } from 'next'
 import './globals.css'
 
 
