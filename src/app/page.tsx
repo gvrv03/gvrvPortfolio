@@ -1,4 +1,4 @@
-import About from "@/components/Home/About"
+import Skills from "@/components/Home/Skills"
 import Experience from "@/components/Home/Experience"
 import LandingPage from "@/components/Home/LandingPage"
 import Projects from "@/components/Home/Projects"
@@ -11,7 +11,7 @@ export default function Home() {
       {/* <ParticleBackground/> */}
       <Navbar/>
       <LandingPage/>
-      <About/>
+      <Skills/>
       <Projects/>
       <Experience/>
     </main>
