@@ -46,7 +46,7 @@ const Navbar = () => {
                     <button className={` hover:px-4  transition-all delay-100 ease-linear hover:text-sm hover:py-1 rounded-full hover:bg-blue-700 hover:text-white  cursor-pointer `} > Projects </button>
                     <button className={` hover:px-4  transition-all delay-100 ease-linear hover:text-sm hover:py-1 rounded-full hover:bg-blue-700 hover:text-white  cursor-pointer `} >Experience</button>
                     <button className={` hover:px-4  transition-all delay-100 ease-linear hover:text-sm hover:py-1 rounded-full hover:bg-blue-700 hover:text-white  cursor-pointer `} >Contact Us</button>
-                    </div>
+                </div>
             </div>
         </nav >
     )
@@ -58,7 +58,7 @@ export default Navbar
 
 
 const SideBar = ({ sidebarState,
-    setsidebarState }) => {
+    setsidebarState }: { sidebarState: boolean, setsidebarState: (state: boolean) => void }) => {
     const router = useRouter()
 
     return (

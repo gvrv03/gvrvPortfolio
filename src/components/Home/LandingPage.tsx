@@ -12,7 +12,7 @@ const LandingPage = () => {
         <div className="lg:flex-grow md:w-[70%] lg:pr-24  justify-between  h-full gap-5 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl  font-medium text-gray-900">Hello! <span className='pColor' >I am Gaurav Narnaware</span>
           </h1>
-          <p className=" leading-relaxed  md:text-justify text-center ">Full stack Web Developer &#x2758; Passionate about design and development &#x2758; Always learning and growing &#x2758; Let&#10076;s connect!</p>
+          <p className=" leading-relaxed  md:text-justify text-center ">Full stack Web Developer &#x2758; Passionate about design and development &#x2758; Always learning and growing &#x2758; Let&#10076;s connect</p>
           <div className="flex justify-center">
             <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Download CV</button>
             <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Contact Us</button>
