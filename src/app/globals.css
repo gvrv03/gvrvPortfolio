@@ -3,25 +3,97 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primaryColor: red;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+.pColor{
+  color: var(--primaryColor);
+}
+
+
+/* Float Animation  */
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.11); */
+    transform: translatey(0px);
+  }
+  50% {
+    /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.041); */
+    transform: translatey(-10px);
+  }
+  100% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.137); */
+    transform: translatey(0px);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+/* Glassmorphism card effect */
+.GlassCard {
+  backdrop-filter: blur(3px) saturate(0%);
+  -webkit-backdrop-filter: blur(10px) saturate(0%);
+  background-color: rgba(201, 216, 238, 0.09);
+}
+
+
+/* ____________________Background Pattern ____________________ */
+.CSSPattern{
+  background-image: radial-gradient(rgba(71, 74, 255, 0.08) 2px, transparent 2px);
+background-size: 32px 32px;
+background-color: #ffffff;
+}
+/* _____________________Preloader _____________ */
+.shapes {
+  width: 56px;
+  height: 48.496px;
+  position: relative;
+  background: conic-gradient(from 120deg at 50% 64%,#0000, #474bff 1deg 120deg,#0000 121deg);
+  transform-origin: 50% 50%;
+  animation: shapes-b3u1dgmd 1.5s infinite cubic-bezier(0.3,1,0,1);
+}
+
+.shapes:before,
+.shapes:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  transform-origin: 50% 66%;
+  animation: shapes-ki907omd 1.5s infinite;
+}
+
+.shapes:after {
+  --s: -1;
+}
+
+@keyframes shapes-b3u1dgmd {
+  0%, 30% {
+     transform: rotate(0);
+  }
+
+  70% {
+     transform: rotate(120deg);
+  }
+
+  70.01%, 100% {
+     transform: rotate(360deg);
+  }
+}
+
+@keyframes shapes-ki907omd {
+  0% {
+     transform: rotate(calc(var(--s,1)*120deg)) translate(0);
+  }
+
+  30%, 70% {
+     transform: rotate(calc(var(--s,1)*120deg)) translate(calc(var(--s,1)*-5.6px),11.2px);
+  }
+
+  100% {
+     transform: rotate(calc(var(--s,1)*120deg)) translate(0);
+  }
 }
