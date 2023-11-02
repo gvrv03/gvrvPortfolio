@@ -6,7 +6,7 @@ const LandingPage = () => {
 
       <div className="container mx-auto  items-center flex px-5 gap-10  py-10 md:flex-row flex-col">
         <div className=" hover:p-5 hover:shadow-none transition-all delay-100 ease-linear  lg:max-w-sm shadow-xl lg:w-full md:w-[30%]  BorderFancy  overflow-hidden w-[70%]">
-          <img className="w-full h-full rounded-full BorderFancy" alt="hero" src="/author.jpg" />
+          <img className="w-full h-full rounded-full BorderFancy" alt="hero" src="/author.svg" />
         </div>
 
         <div className="lg:flex-grow md:w-[70%] lg:pr-24  justify-between  h-full gap-5 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
