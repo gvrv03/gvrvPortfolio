@@ -72,7 +72,7 @@ const SideBar = ({ sidebarState,
             <div className={`${sidebarState ? "left-0" : "left-[-100%]"} absolute  transition-all delay-75 ease-linear  w-[60%] flex-col flex gap-5 bg-white p-5   top-0 bottom-0 `} >
 
 
-                {MainNav.map((Data: { name: String, location: String, icon: String }, Index) => {
+                {MainNav.map((Data: { name: String, location: string, icon: String }, Index) => {
                     return (
                         <button
                             onClick={() => {
