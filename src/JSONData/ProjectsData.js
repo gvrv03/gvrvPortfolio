@@ -4,7 +4,7 @@ const ProjectsData = [
     id: 1,
     title: "DSY Consultancy",
     description:
-      "This Web Application Helps to find Colleges with their diploma Aggregate, Branch, Category etc.",
+      "This Web Application helps users find colleges using their diploma aggregate, branch, category, etc., offering a comprehensive search for better choices.",
     category: "Full Stack",
     image: "/ProjectIDImage/1.png",
     repoLink: "https://github.com/gvrv03/DSYConsultancy",
@@ -14,7 +14,7 @@ const ProjectsData = [
     id: 2,
     title: "GoDigi",
     description:
-      "User can buy digital products like ebooks, projects and etc. Admin can add products.",
+      "GoDigi allows users to buy digital products like eBooks, projects, and more. Admins can add products, creating a streamlined shopping experience.",
     category: "Full Stack",
     image: "/ProjectIDImage/2.png",
     repoLink: "https://github.com/gvrv03/GoDigi",
@@ -24,7 +24,7 @@ const ProjectsData = [
     id: 3,
     title: "Campus Plant Lens",
     description:
-      "This application is used for institutes to manage their Plant records like planted date, planted by, etc.",
+      "This tool helps institutes manage plant records efficiently, tracking details like planted dates, responsible persons, and plant growth history.",
     category: "Full Stack",
     image: "/ProjectIDImage/3.png",
     repoLink: "https://github.com/gvrv03/CampusPlantLens",
@@ -34,7 +34,7 @@ const ProjectsData = [
     id: 4,
     title: "Image Collage Tool",
     description:
-      "Image Collage Maker is a lightweight web app designed for creating simple yet beautiful collages using your own images.",
+      "Image Collage Maker is a lightweight, intuitive app for creating beautiful, customizable collages with your own images. Simple and effective.",
     category: "Web App",
     image: "/ProjectIDImage/4.png",
     repoLink: "https://github.com/gvrv03/Image-Collage-",
@@ -43,7 +43,8 @@ const ProjectsData = [
   {
     id: 5,
     title: "URL Shortener",
-    description: "It helps to generate short URL from an long URL.",
+    description:
+      "A fast, easy-to-use tool that generates short URLs from long ones, making link sharing quicker and more manageable for everyday use.",
     category: "Web App",
     image: "/ProjectIDImage/5.png",
     repoLink: "https://github.com/gvrv03/URL-Shortner",
@@ -53,7 +54,7 @@ const ProjectsData = [
     id: 6,
     title: "Weather Forecasting",
     description:
-      "A React JS app providing real-time weather updates, including temperature, humidity, and 7-day forecasts with a clean, user-friendly interface.",
+      "This React JS app provides live weather updates, including temperature, humidity, and detailed 7-day forecasts, all in a user-friendly design.",
     category: "Web App",
     image: "/ProjectIDImage/6.png",
     repoLink: "https://github.com/gvrv03/WeatherForecasting",
@@ -63,7 +64,7 @@ const ProjectsData = [
     id: 7,
     title: "Hotel Booking Module",
     description:
-      "The Hotel Booking Application! This application serves as a platform for users to book hotel accommodations conveniently. It utilizes local storage as a database to securely store user booking details.",
+      "The Hotel Booking Module allows users to conveniently book accommodations, storing booking details securely in local storage for future reference.",
     category: "Web App",
     image: "/ProjectIDImage/7.png",
     repoLink: "https://github.com/gvrv03/Hotel-Booking-Using-React",
