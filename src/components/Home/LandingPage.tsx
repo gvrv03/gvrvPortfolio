@@ -29,7 +29,7 @@ const LandingPage = () => {
             <div className=" w-10 rounded-full h-20 grid place-items-center border-2">
               <div className="w-1 bg-gray-300 h-10" />
             </div>
-            <div>Swipe Up</div>
+            <div>Swipe Up </div>
           </div>
         </div>
       </div>
