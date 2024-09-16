@@ -23,6 +23,7 @@ const Projects: React.FC<ProjectsProps> = ({ start, end }) => {
           <img
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src={project.image}
+            loading="lazy"
             alt={project.title}
           />
           <div className="p-5">

@@ -23,27 +23,27 @@ export const MainNav= [
     location: "/",
     icon: "pColor uil uil-estate",
   },
-  {
-    name: "Skills",
-    location: "#skills",
-    icon: "pColor uil uil-document-layout-left",
-  },
+  // {
+  //   name: "Skills",
+  //   location: "#skills",
+  //   icon: "pColor uil uil-document-layout-left",
+  // },
   {
     name: "Projects",
-    location: "#projects",
+    location: "/myprojects",
     icon: "pColor uil uil-files-landscapes-alt",
   },
-  {
-    name: "Experience",
-    location: "#experience",
-    icon: "pColor uil  uil-shopping-cart-alt",
-  },
+  // {
+  //   name: "Experience",
+  //   location: "#experience",
+  //   icon: "pColor uil  uil-shopping-cart-alt",
+  // },
 
-  {
-    name: "Contact Us",
-    location: "#contactUs",
-    icon: "pColor uil uil-phone",
-  },
+  // {
+  //   name: "Contact Us",
+  //   location: "#contactUs",
+  //   icon: "pColor uil uil-phone",
+  // },
 ];
 
 export const DashNav = [

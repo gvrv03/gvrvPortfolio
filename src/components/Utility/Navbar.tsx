@@ -81,12 +81,14 @@ const SideBar = ({ sidebarState,
                             className=' w-full  text-left hover:text-black hover:font-semibold transition-all delay-75 ease-linear cursor-pointer' key={Index}  >  <i className={`${Data.icon} mr-2 `} /> {Data.name}</button>
                     )
                 })}
-                <hr />
+
+                {/*
+                <hr /> 
                 {Legal.map((Data: { name: String, location: String, icon: String }, Index) => {
                     return (
                         <div className='hover:text-black hover:font-semibold transition-all delay-75 ease-linear cursor-pointer' key={Index} >  <i className={`${Data.icon} mr-2 `} /> {Data.name}</div>
                     )
-                })}
+                })} */}
 
             </div>
         </div>

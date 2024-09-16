@@ -10,18 +10,9 @@ const ProjectsData = [
     repoLink: "https://github.com/gvrv03/DSYConsultancy",
     liveLink: "https://dsyconsultancy.netlify.app/",
   },
+ 
   {
     id: 2,
-    title: "GoDigi",
-    description:
-      "GoDigi allows users to buy digital products like eBooks, projects, and more. Admins can add products, creating a streamlined shopping experience.",
-    category: "Full Stack",
-    image: "/ProjectIDImage/2.png",
-    repoLink: "https://github.com/gvrv03/GoDigi",
-    liveLink: "",
-  },
-  {
-    id: 3,
     title: "Campus Plant Lens",
     description:
       "This tool helps institutes manage plant records efficiently, tracking details like planted dates, responsible persons, and plant growth history.",
@@ -31,7 +22,7 @@ const ProjectsData = [
     liveLink: "https://campusplantlens.netlify.app/",
   },
   {
-    id: 4,
+    id: 3,
     title: "Image Collage Tool",
     description:
       "Image Collage Maker is a lightweight, intuitive app for creating beautiful, customizable collages with your own images. Simple and effective.",
@@ -39,6 +30,16 @@ const ProjectsData = [
     image: "/ProjectIDImage/4.png",
     repoLink: "https://github.com/gvrv03/Image-Collage-",
     liveLink: "https://imagecollage.vercel.app/",
+  },  
+  {
+    id: 4,
+    title: "GoDigi",
+    description:
+      "GoDigi allows users to buy digital products like eBooks, projects, and more. Admins can add products, creating a streamlined shopping experience.",
+    category: "Full Stack",
+    image: "/ProjectIDImage/2.png",
+    repoLink: "https://github.com/gvrv03/GoDigi",
+    liveLink: "",
   },
   {
     id: 5,
